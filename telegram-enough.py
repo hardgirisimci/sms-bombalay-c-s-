@@ -4,7 +4,7 @@ from sms import SendSms
 from time import sleep
 from os import environ
 
-TOKEN = environ.get('TOKEN')
+TOKEN = environ.get('6443832941:AAFTLgJuFWoS0c2K28eccxQo38BRCqVa8r4')
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f"Merhaba\!\nBirilerinin telefonunu sikmek  istiyorsan doğru yere geldin\.\n*_/help_* yazarak komutları görebilirsin\.\nİyi eğlenceler\!\nHardGirişimci Hard Siker)
